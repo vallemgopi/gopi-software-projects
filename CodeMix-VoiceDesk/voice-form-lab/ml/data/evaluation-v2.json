@@ -1,0 +1,622 @@
+{
+  "version": "synthetic-eval-v2-south",
+  "synthetic": true,
+  "examples": [
+    {
+      "id": "syn-001",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "Water is leaking at Demo Lane.",
+      "observed_transcript": "Water is leaking at Demo Line.",
+      "fields": {
+        "category": "water",
+        "summary": "Water is leaking at Demo Lane",
+        "location": "Demo Lane",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-002",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Bijli nahi hai at Sample Nagar since 2026-01-15.",
+      "observed_transcript": "Bijli nahi hai at Sample Nagar since 2026-01-15.",
+      "fields": {
+        "category": "electricity",
+        "summary": "Bijli nahi hai at Sample Nagar since 2026-01-15",
+        "location": "Sample Nagar",
+        "datetime": "2026-01-15",
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-003",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Sadak par gaddha hai near Test Road.",
+      "observed_transcript": "Sadak par gaddha hai near Test Road.",
+      "fields": {
+        "category": "roads",
+        "summary": "Sadak par gaddha hai near Test Road",
+        "location": "Test Road",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-004",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Kachra nahi uthaya at Fiction Park.",
+      "observed_transcript": "Kachra nahi uthaya at Fiction Park.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "Kachra nahi uthaya at Fiction Park",
+        "location": "Fiction Park",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-005",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "The power supply failed near Mock Square. Name: Demo Person.",
+      "observed_transcript": "The power supply failed near Mock Square. Name: Demo Person.",
+      "fields": {
+        "category": "electricity",
+        "summary": "The power supply failed near Mock Square",
+        "location": "Mock Square",
+        "datetime": null,
+        "identifier": "Demo Person"
+      }
+    },
+    {
+      "id": "syn-006",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "A pothole appeared at Example Street on 2026-02-02.",
+      "observed_transcript": "A pothole appeared at Example Street on 2026-02-02.",
+      "fields": {
+        "category": "roads",
+        "summary": "A pothole appeared at Example Street on 2026-02-02",
+        "location": "Example Street",
+        "datetime": "2026-02-02",
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-007",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "Waste collection missed near Sample Park.",
+      "observed_transcript": "Waste collection missed near Sample Park.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "Waste collection missed near Sample Park",
+        "location": "Sample Park",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-008",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Paani nahi aa raha at Demo Colony. ID: SYN-004.",
+      "observed_transcript": "Paani nahi aa raha at Demo Colony. ID: SYN-004.",
+      "fields": {
+        "category": "water",
+        "summary": "Paani nahi aa raha at Demo Colony",
+        "location": "Demo Colony",
+        "datetime": null,
+        "identifier": "SYN-004"
+      }
+    },
+    {
+      "id": "syn-009",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "The tap is dry at Imaginary Avenue.",
+      "observed_transcript": "The tap is dry at Imaginary Avenue.",
+      "fields": {
+        "category": "water",
+        "summary": "The tap is dry at Imaginary Avenue",
+        "location": "Imaginary Avenue",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-010",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Naali overflow ho rahi at Mock Lane.",
+      "observed_transcript": "Naali overflow ho rahi at Mock Lane.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "Naali overflow ho rahi at Mock Lane",
+        "location": "Mock Lane",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-011",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Light chali gayi near Test Nagar.",
+      "observed_transcript": "Light chali gayi near Test Nagar.",
+      "fields": {
+        "category": "electricity",
+        "summary": "Light chali gayi near Test Nagar",
+        "location": "Test Nagar",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-012",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "The carriageway is fractured at Fiction Road.",
+      "observed_transcript": "The carriageway is fractured at Fiction Road.",
+      "fields": {
+        "category": "roads",
+        "summary": "The carriageway is fractured at Fiction Road",
+        "location": "Fiction Road",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "south-ta-native-water",
+      "synthetic": true,
+      "language": "ta-en",
+      "reference_transcript": "தண்ணீர் வரவில்லை at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "observed_transcript": "தண்ணீர் வரவில்லை at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "fields": {
+        "category": "water",
+        "summary": "தண்ணீர் வரவில்லை at Demo TA Lane since 2026-01-15",
+        "location": "Demo TA Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TA-01"
+      }
+    },
+    {
+      "id": "south-ta-Latn-water",
+      "synthetic": true,
+      "language": "ta-Latn-en",
+      "reference_transcript": "thanneer varavillai at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "observed_transcript": "thanneer varavillai at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "fields": {
+        "category": "water",
+        "summary": "thanneer varavillai at Demo TA Lane since 2026-01-15",
+        "location": "Demo TA Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TA-01"
+      }
+    },
+    {
+      "id": "south-ta-native-electricity",
+      "synthetic": true,
+      "language": "ta-en",
+      "reference_transcript": "மின்சாரம் இல்லை at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "observed_transcript": "மின்சாரம் இல்லை at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "fields": {
+        "category": "electricity",
+        "summary": "மின்சாரம் இல்லை at Demo TA Lane since 2026-01-15",
+        "location": "Demo TA Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TA-01"
+      }
+    },
+    {
+      "id": "south-ta-Latn-electricity",
+      "synthetic": true,
+      "language": "ta-Latn-en",
+      "reference_transcript": "minsaram illai at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "observed_transcript": "minsaram illai at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "fields": {
+        "category": "electricity",
+        "summary": "minsaram illai at Demo TA Lane since 2026-01-15",
+        "location": "Demo TA Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TA-01"
+      }
+    },
+    {
+      "id": "south-ta-native-roads",
+      "synthetic": true,
+      "language": "ta-en",
+      "reference_transcript": "சாலையில் குழி உள்ளது at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "observed_transcript": "சாலையில் குழி உள்ளது at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "fields": {
+        "category": "roads",
+        "summary": "சாலையில் குழி உள்ளது at Demo TA Lane since 2026-01-15",
+        "location": "Demo TA Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TA-01"
+      }
+    },
+    {
+      "id": "south-ta-Latn-roads",
+      "synthetic": true,
+      "language": "ta-Latn-en",
+      "reference_transcript": "saalaiyil kuzhi ullathu at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "observed_transcript": "saalaiyil kuzhi ullathu at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "fields": {
+        "category": "roads",
+        "summary": "saalaiyil kuzhi ullathu at Demo TA Lane since 2026-01-15",
+        "location": "Demo TA Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TA-01"
+      }
+    },
+    {
+      "id": "south-ta-native-sanitation",
+      "synthetic": true,
+      "language": "ta-en",
+      "reference_transcript": "குப்பை அகற்றப்படவில்லை at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "observed_transcript": "குப்பை அகற்றப்படவில்லை at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "குப்பை அகற்றப்படவில்லை at Demo TA Lane since 2026-01-15",
+        "location": "Demo TA Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TA-01"
+      }
+    },
+    {
+      "id": "south-ta-Latn-sanitation",
+      "synthetic": true,
+      "language": "ta-Latn-en",
+      "reference_transcript": "kuppai agatrapadavillai at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "observed_transcript": "kuppai agatrapadavillai at Demo TA Lane since 2026-01-15. ID: SYN-TA-01.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "kuppai agatrapadavillai at Demo TA Lane since 2026-01-15",
+        "location": "Demo TA Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TA-01"
+      }
+    },
+    {
+      "id": "south-te-native-water",
+      "synthetic": true,
+      "language": "te-en",
+      "reference_transcript": "నీరు రావడం లేదు at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "observed_transcript": "నీరు రావడం లేదు at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "fields": {
+        "category": "water",
+        "summary": "నీరు రావడం లేదు at Demo TE Lane since 2026-01-15",
+        "location": "Demo TE Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TE-01"
+      }
+    },
+    {
+      "id": "south-te-Latn-water",
+      "synthetic": true,
+      "language": "te-Latn-en",
+      "reference_transcript": "neeru raavadam ledu at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "observed_transcript": "neeru raavadam ledu at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "fields": {
+        "category": "water",
+        "summary": "neeru raavadam ledu at Demo TE Lane since 2026-01-15",
+        "location": "Demo TE Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TE-01"
+      }
+    },
+    {
+      "id": "south-te-native-electricity",
+      "synthetic": true,
+      "language": "te-en",
+      "reference_transcript": "విద్యుత్ సరఫరా లేదు at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "observed_transcript": "విద్యుత్ సరఫరా లేదు at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "fields": {
+        "category": "electricity",
+        "summary": "విద్యుత్ సరఫరా లేదు at Demo TE Lane since 2026-01-15",
+        "location": "Demo TE Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TE-01"
+      }
+    },
+    {
+      "id": "south-te-Latn-electricity",
+      "synthetic": true,
+      "language": "te-Latn-en",
+      "reference_transcript": "currentu ledu at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "observed_transcript": "currentu ledu at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "fields": {
+        "category": "electricity",
+        "summary": "currentu ledu at Demo TE Lane since 2026-01-15",
+        "location": "Demo TE Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TE-01"
+      }
+    },
+    {
+      "id": "south-te-native-roads",
+      "synthetic": true,
+      "language": "te-en",
+      "reference_transcript": "రోడ్డుపై గుంత ఉంది at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "observed_transcript": "రోడ్డుపై గుంత ఉంది at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "fields": {
+        "category": "roads",
+        "summary": "రోడ్డుపై గుంత ఉంది at Demo TE Lane since 2026-01-15",
+        "location": "Demo TE Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TE-01"
+      }
+    },
+    {
+      "id": "south-te-Latn-roads",
+      "synthetic": true,
+      "language": "te-Latn-en",
+      "reference_transcript": "roddu pai guntha undi at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "observed_transcript": "roddu pai guntha undi at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "fields": {
+        "category": "roads",
+        "summary": "roddu pai guntha undi at Demo TE Lane since 2026-01-15",
+        "location": "Demo TE Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TE-01"
+      }
+    },
+    {
+      "id": "south-te-native-sanitation",
+      "synthetic": true,
+      "language": "te-en",
+      "reference_transcript": "చెత్త తీయలేదు at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "observed_transcript": "చెత్త తీయలేదు at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "చెత్త తీయలేదు at Demo TE Lane since 2026-01-15",
+        "location": "Demo TE Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TE-01"
+      }
+    },
+    {
+      "id": "south-te-Latn-sanitation",
+      "synthetic": true,
+      "language": "te-Latn-en",
+      "reference_transcript": "chetta teeyaledu at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "observed_transcript": "chetta teeyaledu at Demo TE Lane since 2026-01-15. ID: SYN-TE-01.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "chetta teeyaledu at Demo TE Lane since 2026-01-15",
+        "location": "Demo TE Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-TE-01"
+      }
+    },
+    {
+      "id": "south-kn-native-water",
+      "synthetic": true,
+      "language": "kn-en",
+      "reference_transcript": "ನೀರು ಬರುತ್ತಿಲ್ಲ at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "observed_transcript": "ನೀರು ಬರುತ್ತಿಲ್ಲ at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "fields": {
+        "category": "water",
+        "summary": "ನೀರು ಬರುತ್ತಿಲ್ಲ at Demo KN Lane since 2026-01-15",
+        "location": "Demo KN Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-KN-01"
+      }
+    },
+    {
+      "id": "south-kn-Latn-water",
+      "synthetic": true,
+      "language": "kn-Latn-en",
+      "reference_transcript": "neeru baruttilla at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "observed_transcript": "neeru baruttilla at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "fields": {
+        "category": "water",
+        "summary": "neeru baruttilla at Demo KN Lane since 2026-01-15",
+        "location": "Demo KN Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-KN-01"
+      }
+    },
+    {
+      "id": "south-kn-native-electricity",
+      "synthetic": true,
+      "language": "kn-en",
+      "reference_transcript": "ವಿದ್ಯುತ್ ಇಲ್ಲ at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "observed_transcript": "ವಿದ್ಯುತ್ ಇಲ್ಲ at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "fields": {
+        "category": "electricity",
+        "summary": "ವಿದ್ಯುತ್ ಇಲ್ಲ at Demo KN Lane since 2026-01-15",
+        "location": "Demo KN Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-KN-01"
+      }
+    },
+    {
+      "id": "south-kn-Latn-electricity",
+      "synthetic": true,
+      "language": "kn-Latn-en",
+      "reference_transcript": "vidyut illa at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "observed_transcript": "vidyut illa at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "fields": {
+        "category": "electricity",
+        "summary": "vidyut illa at Demo KN Lane since 2026-01-15",
+        "location": "Demo KN Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-KN-01"
+      }
+    },
+    {
+      "id": "south-kn-native-roads",
+      "synthetic": true,
+      "language": "kn-en",
+      "reference_transcript": "ರಸ್ತೆಯಲ್ಲಿ ಗುಂಡಿ ಇದೆ at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "observed_transcript": "ರಸ್ತೆಯಲ್ಲಿ ಗುಂಡಿ ಇದೆ at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "fields": {
+        "category": "roads",
+        "summary": "ರಸ್ತೆಯಲ್ಲಿ ಗುಂಡಿ ಇದೆ at Demo KN Lane since 2026-01-15",
+        "location": "Demo KN Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-KN-01"
+      }
+    },
+    {
+      "id": "south-kn-Latn-roads",
+      "synthetic": true,
+      "language": "kn-Latn-en",
+      "reference_transcript": "rasteyalli gundi ide at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "observed_transcript": "rasteyalli gundi ide at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "fields": {
+        "category": "roads",
+        "summary": "rasteyalli gundi ide at Demo KN Lane since 2026-01-15",
+        "location": "Demo KN Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-KN-01"
+      }
+    },
+    {
+      "id": "south-kn-native-sanitation",
+      "synthetic": true,
+      "language": "kn-en",
+      "reference_transcript": "ಕಸ ತೆಗೆದಿಲ್ಲ at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "observed_transcript": "ಕಸ ತೆಗೆದಿಲ್ಲ at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "ಕಸ ತೆಗೆದಿಲ್ಲ at Demo KN Lane since 2026-01-15",
+        "location": "Demo KN Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-KN-01"
+      }
+    },
+    {
+      "id": "south-kn-Latn-sanitation",
+      "synthetic": true,
+      "language": "kn-Latn-en",
+      "reference_transcript": "kasa tegedilla at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "observed_transcript": "kasa tegedilla at Demo KN Lane since 2026-01-15. ID: SYN-KN-01.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "kasa tegedilla at Demo KN Lane since 2026-01-15",
+        "location": "Demo KN Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-KN-01"
+      }
+    },
+    {
+      "id": "south-ml-native-water",
+      "synthetic": true,
+      "language": "ml-en",
+      "reference_transcript": "വെള്ളം വരുന്നില്ല at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "observed_transcript": "വെള്ളം വരുന്നില്ല at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "fields": {
+        "category": "water",
+        "summary": "വെള്ളം വരുന്നില്ല at Demo ML Lane since 2026-01-15",
+        "location": "Demo ML Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-ML-01"
+      }
+    },
+    {
+      "id": "south-ml-Latn-water",
+      "synthetic": true,
+      "language": "ml-Latn-en",
+      "reference_transcript": "vellam varunnilla at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "observed_transcript": "vellam varunnilla at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "fields": {
+        "category": "water",
+        "summary": "vellam varunnilla at Demo ML Lane since 2026-01-15",
+        "location": "Demo ML Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-ML-01"
+      }
+    },
+    {
+      "id": "south-ml-native-electricity",
+      "synthetic": true,
+      "language": "ml-en",
+      "reference_transcript": "വൈദ്യുതി ഇല്ല at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "observed_transcript": "വൈദ്യുതി ഇല്ല at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "fields": {
+        "category": "electricity",
+        "summary": "വൈദ്യുതി ഇല്ല at Demo ML Lane since 2026-01-15",
+        "location": "Demo ML Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-ML-01"
+      }
+    },
+    {
+      "id": "south-ml-Latn-electricity",
+      "synthetic": true,
+      "language": "ml-Latn-en",
+      "reference_transcript": "vaidyuthi illa at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "observed_transcript": "vaidyuthi illa at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "fields": {
+        "category": "electricity",
+        "summary": "vaidyuthi illa at Demo ML Lane since 2026-01-15",
+        "location": "Demo ML Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-ML-01"
+      }
+    },
+    {
+      "id": "south-ml-native-roads",
+      "synthetic": true,
+      "language": "ml-en",
+      "reference_transcript": "റോഡിൽ കുഴിയുണ്ട് at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "observed_transcript": "റോഡിൽ കുഴിയുണ്ട് at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "fields": {
+        "category": "roads",
+        "summary": "റോഡിൽ കുഴിയുണ്ട് at Demo ML Lane since 2026-01-15",
+        "location": "Demo ML Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-ML-01"
+      }
+    },
+    {
+      "id": "south-ml-Latn-roads",
+      "synthetic": true,
+      "language": "ml-Latn-en",
+      "reference_transcript": "roadil kuzhi undu at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "observed_transcript": "roadil kuzhi undu at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "fields": {
+        "category": "roads",
+        "summary": "roadil kuzhi undu at Demo ML Lane since 2026-01-15",
+        "location": "Demo ML Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-ML-01"
+      }
+    },
+    {
+      "id": "south-ml-native-sanitation",
+      "synthetic": true,
+      "language": "ml-en",
+      "reference_transcript": "മാലിന്യം നീക്കിയില്ല at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "observed_transcript": "മാലിന്യം നീക്കിയില്ല at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "മാലിന്യം നീക്കിയില്ല at Demo ML Lane since 2026-01-15",
+        "location": "Demo ML Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-ML-01"
+      }
+    },
+    {
+      "id": "south-ml-Latn-sanitation",
+      "synthetic": true,
+      "language": "ml-Latn-en",
+      "reference_transcript": "maalinyam neekkiyilla at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "observed_transcript": "maalinyam neekkiyilla at Demo ML Lane since 2026-01-15. ID: SYN-ML-01.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "maalinyam neekkiyilla at Demo ML Lane since 2026-01-15",
+        "location": "Demo ML Lane",
+        "datetime": "2026-01-15",
+        "identifier": "SYN-ML-01"
+      }
+    }
+  ]
+}

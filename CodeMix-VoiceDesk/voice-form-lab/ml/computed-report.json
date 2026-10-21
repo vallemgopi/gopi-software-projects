@@ -1,0 +1,2349 @@
+{
+  "datasetVersion": "synthetic-eval-v2-south",
+  "datasetSha256": "2383077c554710f3c2d763e7ba7ab498f4964930165b4ddcbb3600e2fd38f141",
+  "modelVersion": "char-tfidf-logreg-v2-south",
+  "seed": 42,
+  "synthetic": true,
+  "examples": 44,
+  "wer": 0.0018148820326678765,
+  "wordErrors": 1,
+  "referenceWords": 551,
+  "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+  "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+  "reports": {
+    "model": {
+      "perFieldAccuracy": {
+        "category": 0.8409090909090909,
+        "summary": 0.9772727272727273,
+        "location": 0.9772727272727273,
+        "datetime": 1.0,
+        "identifier": 1.0
+      },
+      "nonMissingAccuracy": {
+        "category": 0.8409090909090909,
+        "summary": 0.9772727272727273,
+        "location": 0.9772727272727273,
+        "datetime": 1.0,
+        "identifier": 1.0
+      },
+      "categoryMacroPrecision": 0.8760504201680672,
+      "categoryMacroRecall": 0.8409090909090909,
+      "categoryMacroF1": 0.8392857142857142,
+      "confusionLabels": [
+        "electricity",
+        "roads",
+        "sanitation",
+        "water",
+        "missing"
+      ],
+      "confusionMatrix": [
+        [
+          11,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "errors": [
+        {
+          "id": "syn-001",
+          "language": "en",
+          "field": "summary",
+          "expected": "Water is leaking at Demo Lane",
+          "predicted": "Water is leaking at Demo Line"
+        },
+        {
+          "id": "syn-001",
+          "language": "en",
+          "field": "location",
+          "expected": "Demo Lane",
+          "predicted": "Demo Line"
+        },
+        {
+          "id": "syn-006",
+          "language": "en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": "sanitation"
+        },
+        {
+          "id": "syn-009",
+          "language": "en",
+          "field": "category",
+          "expected": "water",
+          "predicted": "electricity"
+        },
+        {
+          "id": "south-ta-Latn-sanitation",
+          "language": "ta-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": "electricity"
+        },
+        {
+          "id": "south-te-native-sanitation",
+          "language": "te-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": "electricity"
+        },
+        {
+          "id": "south-te-Latn-sanitation",
+          "language": "te-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": "electricity"
+        },
+        {
+          "id": "south-kn-native-sanitation",
+          "language": "kn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": "electricity"
+        },
+        {
+          "id": "south-kn-Latn-sanitation",
+          "language": "kn-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": "electricity"
+        }
+      ]
+    },
+    "baseline": {
+      "perFieldAccuracy": {
+        "category": 0.022727272727272728,
+        "summary": 0.9772727272727273,
+        "location": 0.9772727272727273,
+        "datetime": 1.0,
+        "identifier": 1.0
+      },
+      "nonMissingAccuracy": {
+        "category": 0.022727272727272728,
+        "summary": 0.9772727272727273,
+        "location": 0.9772727272727273,
+        "datetime": 1.0,
+        "identifier": 1.0
+      },
+      "categoryMacroPrecision": 0.25,
+      "categoryMacroRecall": 0.022727272727272728,
+      "categoryMacroF1": 0.041666666666666664,
+      "confusionLabels": [
+        "electricity",
+        "roads",
+        "sanitation",
+        "water",
+        "missing"
+      ],
+      "confusionMatrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "errors": [
+        {
+          "id": "syn-001",
+          "language": "en",
+          "field": "summary",
+          "expected": "Water is leaking at Demo Lane",
+          "predicted": "Water is leaking at Demo Line"
+        },
+        {
+          "id": "syn-001",
+          "language": "en",
+          "field": "location",
+          "expected": "Demo Lane",
+          "predicted": "Demo Line"
+        },
+        {
+          "id": "syn-002",
+          "language": "hi-Latn-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "syn-003",
+          "language": "hi-Latn-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "syn-004",
+          "language": "hi-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "syn-005",
+          "language": "en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "syn-006",
+          "language": "en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "syn-007",
+          "language": "en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "syn-008",
+          "language": "hi-Latn-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "syn-009",
+          "language": "en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "syn-010",
+          "language": "hi-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "syn-011",
+          "language": "hi-Latn-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "syn-012",
+          "language": "en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-ta-native-water",
+          "language": "ta-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "south-ta-Latn-water",
+          "language": "ta-Latn-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "south-ta-native-electricity",
+          "language": "ta-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "south-ta-Latn-electricity",
+          "language": "ta-Latn-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "south-ta-native-roads",
+          "language": "ta-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-ta-Latn-roads",
+          "language": "ta-Latn-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-ta-native-sanitation",
+          "language": "ta-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "south-ta-Latn-sanitation",
+          "language": "ta-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "south-te-native-water",
+          "language": "te-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "south-te-Latn-water",
+          "language": "te-Latn-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "south-te-native-electricity",
+          "language": "te-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "south-te-Latn-electricity",
+          "language": "te-Latn-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "south-te-native-roads",
+          "language": "te-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-te-Latn-roads",
+          "language": "te-Latn-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-te-native-sanitation",
+          "language": "te-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "south-te-Latn-sanitation",
+          "language": "te-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "south-kn-native-water",
+          "language": "kn-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "south-kn-Latn-water",
+          "language": "kn-Latn-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "south-kn-native-electricity",
+          "language": "kn-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "south-kn-Latn-electricity",
+          "language": "kn-Latn-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "south-kn-native-roads",
+          "language": "kn-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-kn-Latn-roads",
+          "language": "kn-Latn-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-kn-native-sanitation",
+          "language": "kn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "south-kn-Latn-sanitation",
+          "language": "kn-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "south-ml-native-water",
+          "language": "ml-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "south-ml-Latn-water",
+          "language": "ml-Latn-en",
+          "field": "category",
+          "expected": "water",
+          "predicted": null
+        },
+        {
+          "id": "south-ml-native-electricity",
+          "language": "ml-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "south-ml-Latn-electricity",
+          "language": "ml-Latn-en",
+          "field": "category",
+          "expected": "electricity",
+          "predicted": null
+        },
+        {
+          "id": "south-ml-native-roads",
+          "language": "ml-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-ml-Latn-roads",
+          "language": "ml-Latn-en",
+          "field": "category",
+          "expected": "roads",
+          "predicted": null
+        },
+        {
+          "id": "south-ml-native-sanitation",
+          "language": "ml-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        },
+        {
+          "id": "south-ml-Latn-sanitation",
+          "language": "ml-Latn-en",
+          "field": "category",
+          "expected": "sanitation",
+          "predicted": null
+        }
+      ]
+    }
+  },
+  "byLanguage": {
+    "en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "4f7d8dc9741fbcc3616c360f11a06ab54f63885b07e0073bf6a7bdda2a96d106",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 6,
+      "wer": 0.021739130434782608,
+      "wordErrors": 1,
+      "referenceWords": 46,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 0.6666666666666666,
+            "summary": 0.8333333333333334,
+            "location": 0.8333333333333334,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.6666666666666666,
+            "summary": 0.8333333333333334,
+            "location": 0.8333333333333334,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.75,
+          "categoryMacroRecall": 0.75,
+          "categoryMacroF1": 0.6666666666666666,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "syn-001",
+              "language": "en",
+              "field": "summary",
+              "expected": "Water is leaking at Demo Lane",
+              "predicted": "Water is leaking at Demo Line"
+            },
+            {
+              "id": "syn-001",
+              "language": "en",
+              "field": "location",
+              "expected": "Demo Lane",
+              "predicted": "Demo Line"
+            },
+            {
+              "id": "syn-006",
+              "language": "en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": "sanitation"
+            },
+            {
+              "id": "syn-009",
+              "language": "en",
+              "field": "category",
+              "expected": "water",
+              "predicted": "electricity"
+            }
+          ]
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.16666666666666666,
+            "summary": 0.8333333333333334,
+            "location": 0.8333333333333334,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.16666666666666666,
+            "summary": 0.8333333333333334,
+            "location": 0.8333333333333334,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.25,
+          "categoryMacroRecall": 0.125,
+          "categoryMacroF1": 0.16666666666666666,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "syn-001",
+              "language": "en",
+              "field": "summary",
+              "expected": "Water is leaking at Demo Lane",
+              "predicted": "Water is leaking at Demo Line"
+            },
+            {
+              "id": "syn-001",
+              "language": "en",
+              "field": "location",
+              "expected": "Demo Lane",
+              "predicted": "Demo Line"
+            },
+            {
+              "id": "syn-005",
+              "language": "en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "syn-006",
+              "language": "en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "syn-007",
+              "language": "en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            },
+            {
+              "id": "syn-009",
+              "language": "en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "syn-012",
+              "language": "en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "hi-Latn-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "8afaaa94f5ae5c614585461a38dc977b8a90263c0d2359b0fe2d4192487ee9ae",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 6,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 46,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 1.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 1.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 1.0,
+          "categoryMacroRecall": 1.0,
+          "categoryMacroF1": 1.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": []
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "syn-002",
+              "language": "hi-Latn-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "syn-003",
+              "language": "hi-Latn-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "syn-004",
+              "language": "hi-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            },
+            {
+              "id": "syn-008",
+              "language": "hi-Latn-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "syn-010",
+              "language": "hi-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            },
+            {
+              "id": "syn-011",
+              "language": "hi-Latn-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "kn-Latn-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "9b572af4a8eeb57702ee77ec257688d7f4666e1555e74a090037aa720af9392e",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 4,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 57,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.625,
+          "categoryMacroRecall": 0.75,
+          "categoryMacroF1": 0.6666666666666666,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-kn-Latn-sanitation",
+              "language": "kn-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": "electricity"
+            }
+          ]
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-kn-Latn-water",
+              "language": "kn-Latn-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "south-kn-Latn-electricity",
+              "language": "kn-Latn-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "south-kn-Latn-roads",
+              "language": "kn-Latn-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "south-kn-Latn-sanitation",
+              "language": "kn-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "kn-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "f9e4e5166e44955b6f2a1cc5d440b5693a277ec3579a65a0ebb920077fabcc79",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 4,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 57,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.625,
+          "categoryMacroRecall": 0.75,
+          "categoryMacroF1": 0.6666666666666666,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-kn-native-sanitation",
+              "language": "kn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": "electricity"
+            }
+          ]
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-kn-native-water",
+              "language": "kn-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "south-kn-native-electricity",
+              "language": "kn-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "south-kn-native-roads",
+              "language": "kn-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "south-kn-native-sanitation",
+              "language": "kn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "ml-Latn-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "17797afb39862ce5b2a331f307aea2a003b24be84538cba38480dd9c4332d62d",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 4,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 57,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 1.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 1.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 1.0,
+          "categoryMacroRecall": 1.0,
+          "categoryMacroF1": 1.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": []
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-ml-Latn-water",
+              "language": "ml-Latn-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "south-ml-Latn-electricity",
+              "language": "ml-Latn-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "south-ml-Latn-roads",
+              "language": "ml-Latn-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "south-ml-Latn-sanitation",
+              "language": "ml-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "ml-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "558d776deaf2f7618bbb35b34c2d846f5cf1570abd27d2e19022442db602a3f4",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 4,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 56,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 1.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 1.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 1.0,
+          "categoryMacroRecall": 1.0,
+          "categoryMacroF1": 1.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": []
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-ml-native-water",
+              "language": "ml-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "south-ml-native-electricity",
+              "language": "ml-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "south-ml-native-roads",
+              "language": "ml-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "south-ml-native-sanitation",
+              "language": "ml-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "ta-Latn-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "5cae9d87583c85bb13052509c96752be9f43369d598f5131da8255b535639911",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 4,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 57,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.625,
+          "categoryMacroRecall": 0.75,
+          "categoryMacroF1": 0.6666666666666666,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-ta-Latn-sanitation",
+              "language": "ta-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": "electricity"
+            }
+          ]
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-ta-Latn-water",
+              "language": "ta-Latn-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "south-ta-Latn-electricity",
+              "language": "ta-Latn-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "south-ta-Latn-roads",
+              "language": "ta-Latn-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "south-ta-Latn-sanitation",
+              "language": "ta-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "ta-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "37366f51d6fdec6d864f235e4445ec8306753bd35d11b666da427c75c8a3ba4c",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 4,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 57,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 1.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 1.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 1.0,
+          "categoryMacroRecall": 1.0,
+          "categoryMacroF1": 1.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": []
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-ta-native-water",
+              "language": "ta-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "south-ta-native-electricity",
+              "language": "ta-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "south-ta-native-roads",
+              "language": "ta-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "south-ta-native-sanitation",
+              "language": "ta-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "te-Latn-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "296d626b1222eb11e01fc13e54ab31f987ad6e281ad4d96b82ca789b42c8fc49",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 4,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 59,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.625,
+          "categoryMacroRecall": 0.75,
+          "categoryMacroF1": 0.6666666666666666,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-te-Latn-sanitation",
+              "language": "te-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": "electricity"
+            }
+          ]
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-te-Latn-water",
+              "language": "te-Latn-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "south-te-Latn-electricity",
+              "language": "te-Latn-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "south-te-Latn-roads",
+              "language": "te-Latn-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "south-te-Latn-sanitation",
+              "language": "te-Latn-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    },
+    "te-en": {
+      "datasetVersion": "synthetic-eval-v2-south",
+      "datasetSha256": "7192653d1d8d1743176e9fa78fff9b671af056a6f366d8b0507544574d9ca9cb",
+      "modelVersion": "char-tfidf-logreg-v2-south",
+      "seed": 42,
+      "synthetic": true,
+      "examples": 4,
+      "wer": 0.0,
+      "wordErrors": 0,
+      "referenceWords": 59,
+      "tokenization": "NFC Unicode letter/mark/number words, case folded v2",
+      "werSource": "Bundled simulated recognition transcripts, not measured speech recognition",
+      "reports": {
+        "model": {
+          "perFieldAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.75,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.625,
+          "categoryMacroRecall": 0.75,
+          "categoryMacroF1": 0.6666666666666666,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-te-native-sanitation",
+              "language": "te-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": "electricity"
+            }
+          ]
+        },
+        "baseline": {
+          "perFieldAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "nonMissingAccuracy": {
+            "category": 0.0,
+            "summary": 1.0,
+            "location": 1.0,
+            "datetime": 1.0,
+            "identifier": 1.0
+          },
+          "categoryMacroPrecision": 0.0,
+          "categoryMacroRecall": 0.0,
+          "categoryMacroF1": 0.0,
+          "confusionLabels": [
+            "electricity",
+            "roads",
+            "sanitation",
+            "water",
+            "missing"
+          ],
+          "confusionMatrix": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "errors": [
+            {
+              "id": "south-te-native-water",
+              "language": "te-en",
+              "field": "category",
+              "expected": "water",
+              "predicted": null
+            },
+            {
+              "id": "south-te-native-electricity",
+              "language": "te-en",
+              "field": "category",
+              "expected": "electricity",
+              "predicted": null
+            },
+            {
+              "id": "south-te-native-roads",
+              "language": "te-en",
+              "field": "category",
+              "expected": "roads",
+              "predicted": null
+            },
+            {
+              "id": "south-te-native-sanitation",
+              "language": "te-en",
+              "field": "category",
+              "expected": "sanitation",
+              "predicted": null
+            }
+          ]
+        }
+      }
+    }
+  }
+}

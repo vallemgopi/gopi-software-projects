@@ -1,0 +1,174 @@
+{
+  "version": "synthetic-eval-v1",
+  "synthetic": true,
+  "examples": [
+    {
+      "id": "syn-001",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "Water is leaking at Demo Lane.",
+      "observed_transcript": "Water is leaking at Demo Line.",
+      "fields": {
+        "category": "water",
+        "summary": "Water is leaking at Demo Lane",
+        "location": "Demo Lane",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-002",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Bijli nahi hai at Sample Nagar since 2026-01-15.",
+      "observed_transcript": "Bijli nahi hai at Sample Nagar since 2026-01-15.",
+      "fields": {
+        "category": "electricity",
+        "summary": "Bijli nahi hai at Sample Nagar since 2026-01-15",
+        "location": "Sample Nagar",
+        "datetime": "2026-01-15",
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-003",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Sadak par gaddha hai near Test Road.",
+      "observed_transcript": "Sadak par gaddha hai near Test Road.",
+      "fields": {
+        "category": "roads",
+        "summary": "Sadak par gaddha hai near Test Road",
+        "location": "Test Road",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-004",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Kachra nahi uthaya at Fiction Park.",
+      "observed_transcript": "Kachra nahi uthaya at Fiction Park.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "Kachra nahi uthaya at Fiction Park",
+        "location": "Fiction Park",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-005",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "The power supply failed near Mock Square. Name: Demo Person.",
+      "observed_transcript": "The power supply failed near Mock Square. Name: Demo Person.",
+      "fields": {
+        "category": "electricity",
+        "summary": "The power supply failed near Mock Square",
+        "location": "Mock Square",
+        "datetime": null,
+        "identifier": "Demo Person"
+      }
+    },
+    {
+      "id": "syn-006",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "A pothole appeared at Example Street on 2026-02-02.",
+      "observed_transcript": "A pothole appeared at Example Street on 2026-02-02.",
+      "fields": {
+        "category": "roads",
+        "summary": "A pothole appeared at Example Street on 2026-02-02",
+        "location": "Example Street",
+        "datetime": "2026-02-02",
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-007",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "Waste collection missed near Sample Park.",
+      "observed_transcript": "Waste collection missed near Sample Park.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "Waste collection missed near Sample Park",
+        "location": "Sample Park",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-008",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Paani nahi aa raha at Demo Colony. ID: SYN-004.",
+      "observed_transcript": "Paani nahi aa raha at Demo Colony. ID: SYN-004.",
+      "fields": {
+        "category": "water",
+        "summary": "Paani nahi aa raha at Demo Colony",
+        "location": "Demo Colony",
+        "datetime": null,
+        "identifier": "SYN-004"
+      }
+    },
+    {
+      "id": "syn-009",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "The tap is dry at Imaginary Avenue.",
+      "observed_transcript": "The tap is dry at Imaginary Avenue.",
+      "fields": {
+        "category": "water",
+        "summary": "The tap is dry at Imaginary Avenue",
+        "location": "Imaginary Avenue",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-010",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Naali overflow ho rahi at Mock Lane.",
+      "observed_transcript": "Naali overflow ho rahi at Mock Lane.",
+      "fields": {
+        "category": "sanitation",
+        "summary": "Naali overflow ho rahi at Mock Lane",
+        "location": "Mock Lane",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-011",
+      "synthetic": true,
+      "language": "hi-Latn-en",
+      "reference_transcript": "Light chali gayi near Test Nagar.",
+      "observed_transcript": "Light chali gayi near Test Nagar.",
+      "fields": {
+        "category": "electricity",
+        "summary": "Light chali gayi near Test Nagar",
+        "location": "Test Nagar",
+        "datetime": null,
+        "identifier": null
+      }
+    },
+    {
+      "id": "syn-012",
+      "synthetic": true,
+      "language": "en",
+      "reference_transcript": "The carriageway is fractured at Fiction Road.",
+      "observed_transcript": "The carriageway is fractured at Fiction Road.",
+      "fields": {
+        "category": "roads",
+        "summary": "The carriageway is fractured at Fiction Road",
+        "location": "Fiction Road",
+        "datetime": null,
+        "identifier": null
+      }
+    }
+  ]
+}

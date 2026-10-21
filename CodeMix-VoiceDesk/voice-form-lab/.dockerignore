@@ -1,0 +1,15 @@
+.git
+.venv
+.tools
+.models
+**/node_modules
+**/target
+.env
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.dump
+.idea

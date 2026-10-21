@@ -1,0 +1,12 @@
+__pycache__
+.git
+.env
+.env.*
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+.pytest_cache
+test_*.py

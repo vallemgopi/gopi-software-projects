@@ -1,0 +1,2 @@
+-r requirements.lock
+faster-whisper>=1.2.1,<2

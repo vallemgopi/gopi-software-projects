@@ -1,0 +1,10 @@
+{
+  "repository": "Systran/faster-whisper-base",
+  "revision": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+  "device": "cpu",
+  "computeType": "int8",
+  "languageSelection": ["auto", "ta", "te", "kn", "ml", "en", "hi"],
+  "validation": "Runtime and synthetic English speech smoke only; South Indian spoken accuracy unmeasured",
+  "license": "MIT",
+  "source": "https://huggingface.co/Systran/faster-whisper-base"
+}

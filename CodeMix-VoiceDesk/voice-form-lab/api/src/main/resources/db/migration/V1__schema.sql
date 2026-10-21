@@ -1,0 +1,6 @@
+CREATE TABLE lab_user (id BIGSERIAL PRIMARY KEY, username VARCHAR(100) NOT NULL UNIQUE, password_hash VARCHAR(100) NOT NULL);
+CREATE TABLE lab_case (id UUID PRIMARY KEY, owner VARCHAR(100) NOT NULL REFERENCES lab_user(username), transcript TEXT NOT NULL, prediction TEXT NOT NULL, status VARCHAR(30) NOT NULL, created_at TIMESTAMPTZ NOT NULL, updated_at TIMESTAMPTZ NOT NULL, version BIGINT NOT NULL DEFAULT 0, audio BYTEA);
+CREATE INDEX case_owner_date ON lab_case(owner,created_at DESC);
+CREATE TABLE correction (id UUID PRIMARY KEY, case_id UUID NOT NULL REFERENCES lab_case(id) ON DELETE CASCADE, reviewer VARCHAR(100) NOT NULL, transcript TEXT NOT NULL, fields TEXT NOT NULL, created_at TIMESTAMPTZ NOT NULL);
+CREATE TABLE audit_event (id UUID PRIMARY KEY, case_id UUID, actor VARCHAR(100) NOT NULL, action VARCHAR(40) NOT NULL, created_at TIMESTAMPTZ NOT NULL);
+CREATE TABLE evaluation_run (id UUID PRIMARY KEY, actor VARCHAR(100) NOT NULL, report TEXT NOT NULL, created_at TIMESTAMPTZ NOT NULL);

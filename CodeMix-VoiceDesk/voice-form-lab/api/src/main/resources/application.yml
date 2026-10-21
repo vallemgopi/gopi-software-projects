@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/voicelab}
+    username: ${DB_USER:lab}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 6MB
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+server:
+  port: 8080
+  error:
+    include-message: never
+lab:
+  ml-url: ${ML_URL:http://localhost:8000}
+  demo-user: ${DEMO_USER:reviewer}
+  demo-password: ${DEMO_PASSWORD}
+  cors-origin: ${CORS_ORIGIN:http://localhost:5173}
+  retain-audio: ${RETAIN_AUDIO:false}
+  public-intake: ${PUBLIC_INTAKE_ENABLED:true}
+  phone:
+    enabled: ${PHONE_ENABLED:false}
+    public-base-url: ${PHONE_PUBLIC_BASE_URL:}
+    account-sid: ${TWILIO_ACCOUNT_SID:}
+    auth-token: ${TWILIO_AUTH_TOKEN:}
+    api-key-sid: ${TWILIO_API_KEY_SID:}
+    api-key-secret: ${TWILIO_API_KEY_SECRET:}
+    public-number: ${PHONE_PUBLIC_NUMBER:}
+    prompts-base-url: ${PHONE_PROMPTS_BASE_URL:}
+management:
+  endpoint:
+    health:
+      show-details: never

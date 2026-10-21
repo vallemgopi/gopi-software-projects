@@ -1,0 +1,134 @@
+{
+  "version": "synthetic-train-v1",
+  "synthetic": true,
+  "examples": [
+    {
+      "text": "water supply stopped",
+      "category": "water"
+    },
+    {
+      "text": "paani nahi aa raha",
+      "category": "water"
+    },
+    {
+      "text": "water pipe leaking",
+      "category": "water"
+    },
+    {
+      "text": "paani ka pipe toot gaya",
+      "category": "water"
+    },
+    {
+      "text": "no drinking water",
+      "category": "water"
+    },
+    {
+      "text": "tap has no water",
+      "category": "water"
+    },
+    {
+      "text": "jal supply band hai",
+      "category": "water"
+    },
+    {
+      "text": "water leak outside",
+      "category": "water"
+    },
+    {
+      "text": "power cut since morning",
+      "category": "electricity"
+    },
+    {
+      "text": "bijli nahi hai",
+      "category": "electricity"
+    },
+    {
+      "text": "electric wire broken",
+      "category": "electricity"
+    },
+    {
+      "text": "light nahi aa rahi",
+      "category": "electricity"
+    },
+    {
+      "text": "streetlight broken",
+      "category": "electricity"
+    },
+    {
+      "text": "electricity supply failed",
+      "category": "electricity"
+    },
+    {
+      "text": "bijli ka taar gira",
+      "category": "electricity"
+    },
+    {
+      "text": "no power at home",
+      "category": "electricity"
+    },
+    {
+      "text": "road has potholes",
+      "category": "roads"
+    },
+    {
+      "text": "sadak par gaddha hai",
+      "category": "roads"
+    },
+    {
+      "text": "road surface damaged",
+      "category": "roads"
+    },
+    {
+      "text": "sadak toot gayi",
+      "category": "roads"
+    },
+    {
+      "text": "pothole near crossing",
+      "category": "roads"
+    },
+    {
+      "text": "broken pavement",
+      "category": "roads"
+    },
+    {
+      "text": "gali ki sadak kharab",
+      "category": "roads"
+    },
+    {
+      "text": "repair the road",
+      "category": "roads"
+    },
+    {
+      "text": "garbage not collected",
+      "category": "sanitation"
+    },
+    {
+      "text": "kachra pada hai",
+      "category": "sanitation"
+    },
+    {
+      "text": "drain is blocked",
+      "category": "sanitation"
+    },
+    {
+      "text": "naali band hai",
+      "category": "sanitation"
+    },
+    {
+      "text": "waste collection missed",
+      "category": "sanitation"
+    },
+    {
+      "text": "rubbish on street",
+      "category": "sanitation"
+    },
+    {
+      "text": "kachra nahi uthaya",
+      "category": "sanitation"
+    },
+    {
+      "text": "sewage overflowing",
+      "category": "sanitation"
+    }
+  ]
+}

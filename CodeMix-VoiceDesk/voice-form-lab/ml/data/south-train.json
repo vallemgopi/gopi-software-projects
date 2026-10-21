@@ -1,0 +1,326 @@
+{
+  "version": "synthetic-south-train-v1",
+  "synthetic": true,
+  "examples": [
+    {
+      "text": "தண்ணீர் issue reported",
+      "category": "water",
+      "language": "ta"
+    },
+    {
+      "text": "குடிநீர் issue reported",
+      "category": "water",
+      "language": "ta"
+    },
+    {
+      "text": "thanneer issue reported",
+      "category": "water",
+      "language": "ta"
+    },
+    {
+      "text": "kudineer issue reported",
+      "category": "water",
+      "language": "ta"
+    },
+    {
+      "text": "மின்சாரம் issue reported",
+      "category": "electricity",
+      "language": "ta"
+    },
+    {
+      "text": "மின்விளக்கு issue reported",
+      "category": "electricity",
+      "language": "ta"
+    },
+    {
+      "text": "minsaram issue reported",
+      "category": "electricity",
+      "language": "ta"
+    },
+    {
+      "text": "minvilakku issue reported",
+      "category": "electricity",
+      "language": "ta"
+    },
+    {
+      "text": "சாலை issue reported",
+      "category": "roads",
+      "language": "ta"
+    },
+    {
+      "text": "குழி issue reported",
+      "category": "roads",
+      "language": "ta"
+    },
+    {
+      "text": "saalai issue reported",
+      "category": "roads",
+      "language": "ta"
+    },
+    {
+      "text": "kuzhi issue reported",
+      "category": "roads",
+      "language": "ta"
+    },
+    {
+      "text": "குப்பை issue reported",
+      "category": "sanitation",
+      "language": "ta"
+    },
+    {
+      "text": "சாக்கடை issue reported",
+      "category": "sanitation",
+      "language": "ta"
+    },
+    {
+      "text": "kuppai issue reported",
+      "category": "sanitation",
+      "language": "ta"
+    },
+    {
+      "text": "saakkadai issue reported",
+      "category": "sanitation",
+      "language": "ta"
+    },
+    {
+      "text": "నీరు issue reported",
+      "category": "water",
+      "language": "te"
+    },
+    {
+      "text": "నీటి issue reported",
+      "category": "water",
+      "language": "te"
+    },
+    {
+      "text": "neeru issue reported",
+      "category": "water",
+      "language": "te"
+    },
+    {
+      "text": "neeti issue reported",
+      "category": "water",
+      "language": "te"
+    },
+    {
+      "text": "కరెంట్ issue reported",
+      "category": "electricity",
+      "language": "te"
+    },
+    {
+      "text": "విద్యుత్ issue reported",
+      "category": "electricity",
+      "language": "te"
+    },
+    {
+      "text": "currentu issue reported",
+      "category": "electricity",
+      "language": "te"
+    },
+    {
+      "text": "vidyut issue reported",
+      "category": "electricity",
+      "language": "te"
+    },
+    {
+      "text": "రోడ్డు issue reported",
+      "category": "roads",
+      "language": "te"
+    },
+    {
+      "text": "రహదారి issue reported",
+      "category": "roads",
+      "language": "te"
+    },
+    {
+      "text": "roddu issue reported",
+      "category": "roads",
+      "language": "te"
+    },
+    {
+      "text": "rahadaari issue reported",
+      "category": "roads",
+      "language": "te"
+    },
+    {
+      "text": "చెత్త issue reported",
+      "category": "sanitation",
+      "language": "te"
+    },
+    {
+      "text": "కాలువ issue reported",
+      "category": "sanitation",
+      "language": "te"
+    },
+    {
+      "text": "chetta issue reported",
+      "category": "sanitation",
+      "language": "te"
+    },
+    {
+      "text": "kaaluva issue reported",
+      "category": "sanitation",
+      "language": "te"
+    },
+    {
+      "text": "ನೀರು issue reported",
+      "category": "water",
+      "language": "kn"
+    },
+    {
+      "text": "ನೀರಿನ issue reported",
+      "category": "water",
+      "language": "kn"
+    },
+    {
+      "text": "neeru issue reported",
+      "category": "water",
+      "language": "kn"
+    },
+    {
+      "text": "neerina issue reported",
+      "category": "water",
+      "language": "kn"
+    },
+    {
+      "text": "ವಿದ್ಯುತ್ issue reported",
+      "category": "electricity",
+      "language": "kn"
+    },
+    {
+      "text": "ದೀಪ issue reported",
+      "category": "electricity",
+      "language": "kn"
+    },
+    {
+      "text": "vidyut issue reported",
+      "category": "electricity",
+      "language": "kn"
+    },
+    {
+      "text": "deepa issue reported",
+      "category": "electricity",
+      "language": "kn"
+    },
+    {
+      "text": "ರಸ್ತೆ issue reported",
+      "category": "roads",
+      "language": "kn"
+    },
+    {
+      "text": "ಗುಂಡಿ issue reported",
+      "category": "roads",
+      "language": "kn"
+    },
+    {
+      "text": "raste issue reported",
+      "category": "roads",
+      "language": "kn"
+    },
+    {
+      "text": "gundi issue reported",
+      "category": "roads",
+      "language": "kn"
+    },
+    {
+      "text": "ಕಸ issue reported",
+      "category": "sanitation",
+      "language": "kn"
+    },
+    {
+      "text": "ಚರಂಡಿ issue reported",
+      "category": "sanitation",
+      "language": "kn"
+    },
+    {
+      "text": "kasa issue reported",
+      "category": "sanitation",
+      "language": "kn"
+    },
+    {
+      "text": "charandi issue reported",
+      "category": "sanitation",
+      "language": "kn"
+    },
+    {
+      "text": "വെള്ളം issue reported",
+      "category": "water",
+      "language": "ml"
+    },
+    {
+      "text": "കുടിവെള്ള issue reported",
+      "category": "water",
+      "language": "ml"
+    },
+    {
+      "text": "vellam issue reported",
+      "category": "water",
+      "language": "ml"
+    },
+    {
+      "text": "kudivellam issue reported",
+      "category": "water",
+      "language": "ml"
+    },
+    {
+      "text": "വൈദ്യുതി issue reported",
+      "category": "electricity",
+      "language": "ml"
+    },
+    {
+      "text": "തെരുവുവിളക്ക് issue reported",
+      "category": "electricity",
+      "language": "ml"
+    },
+    {
+      "text": "vaidyuthi issue reported",
+      "category": "electricity",
+      "language": "ml"
+    },
+    {
+      "text": "theruvuvilakku issue reported",
+      "category": "electricity",
+      "language": "ml"
+    },
+    {
+      "text": "റോഡ് issue reported",
+      "category": "roads",
+      "language": "ml"
+    },
+    {
+      "text": "കുഴി issue reported",
+      "category": "roads",
+      "language": "ml"
+    },
+    {
+      "text": "roadil issue reported",
+      "category": "roads",
+      "language": "ml"
+    },
+    {
+      "text": "kuzhi issue reported",
+      "category": "roads",
+      "language": "ml"
+    },
+    {
+      "text": "മാലിന്യം issue reported",
+      "category": "sanitation",
+      "language": "ml"
+    },
+    {
+      "text": "ഓട issue reported",
+      "category": "sanitation",
+      "language": "ml"
+    },
+    {
+      "text": "maalinyam issue reported",
+      "category": "sanitation",
+      "language": "ml"
+    },
+    {
+      "text": "oda issue reported",
+      "category": "sanitation",
+      "language": "ml"
+    }
+  ]
+}

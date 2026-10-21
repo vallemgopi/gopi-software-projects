@@ -1,0 +1,63 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+**/.env
+**/.env.*
+!**/.env.example
+**/.tools/
+**/.models/
+**/.venv/
+**/node_modules/
+**/target/
+**/dist/
+**/__pycache__/
+**/.pytest_cache/
+**/test-results/
+**/playwright-report/
+**/*.tsbuildinfo
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.jks
+**/*.keystore
+**/*.log
+**/*.dump
+**/*.backup
+*-github.zip
+Microsoft/
+**/uploads/
+**/recordings/
+**/exports/
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
