@@ -16,7 +16,9 @@ Two additional projects will be documented here when they are added.
 
 CodeMix VoiceDesk connects a public complaint form to a staff review workspace. Reviewers inspect extracted fields, preserve original predictions, and save corrections separately. Optional local speech recognition supports voice intake.
 
-The application is a local research/demo build. Its bundled evaluation data is synthetic; internet hosting and a live telephone number are not configured.
+The application is a local research and demonstration build. Its bundled evaluation data is synthetic. Internet hosting and a live telephone number are not configured.
+
+**Twilio status:** A free-trial account was used during development. Live calls, access for callers outside the trial setup, and production number requirements have not been verified. No paid subscription or live number is configured.
 
 **[View the project and setup guide →](CodeMix-VoiceDesk/README.md)**
 
