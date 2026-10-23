@@ -1,0 +1,628 @@
+{
+  "model": "Rules-based (no model)",
+  "metrics": {
+    "clarificationRate": 1,
+    "planFieldAccuracy": 1,
+    "unsafeSqlRejectionRate": 1,
+    "rolePolicyRejectionRate": 1,
+    "unsafePlanRejectionRate": 1,
+    "sqlValidationSuccessRate": 1,
+    "unsupportedRejectionRate": 1,
+    "unsafeQuestionRejectionRate": 1
+  },
+  "planner": "demo",
+  "outcomes": [
+    {
+      "id": "valid-0",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 1.811034
+    },
+    {
+      "id": "valid-1",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.726655
+    },
+    {
+      "id": "valid-2",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.875865
+    },
+    {
+      "id": "valid-3",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.850663
+    },
+    {
+      "id": "valid-4",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.668349
+    },
+    {
+      "id": "valid-5",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.651248
+    },
+    {
+      "id": "valid-6",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.571642
+    },
+    {
+      "id": "valid-7",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.610545
+    },
+    {
+      "id": "valid-8",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.66745
+    },
+    {
+      "id": "valid-9",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.80186
+    },
+    {
+      "id": "valid-10",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.633548
+    },
+    {
+      "id": "valid-11",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.682751
+    },
+    {
+      "id": "valid-12",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.605645
+    },
+    {
+      "id": "valid-13",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.565642
+    },
+    {
+      "id": "valid-14",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.575443
+    },
+    {
+      "id": "valid-15",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.550541
+    },
+    {
+      "id": "valid-16",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.755956
+    },
+    {
+      "id": "valid-17",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 1.375802
+    },
+    {
+      "id": "valid-18",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 1.136985
+    },
+    {
+      "id": "valid-19",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.94237
+    },
+    {
+      "id": "valid-20",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.679151
+    },
+    {
+      "id": "valid-21",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.563742
+    },
+    {
+      "id": "valid-22",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.484336
+    },
+    {
+      "id": "valid-23",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.485936
+    },
+    {
+      "id": "valid-24",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.592444
+    },
+    {
+      "id": "valid-25",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.592345
+    },
+    {
+      "id": "valid-26",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.524539
+    },
+    {
+      "id": "valid-27",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.495837
+    },
+    {
+      "id": "valid-28",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.516238
+    },
+    {
+      "id": "valid-29",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.524839
+    },
+    {
+      "id": "valid-30",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.493237
+    },
+    {
+      "id": "valid-31",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.525539
+    },
+    {
+      "id": "valid-32",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.755156
+    },
+    {
+      "id": "valid-33",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.608946
+    },
+    {
+      "id": "valid-34",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.503738
+    },
+    {
+      "id": "valid-35",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.838362
+    },
+    {
+      "id": "valid-36",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.494837
+    },
+    {
+      "id": "valid-37",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.440232
+    },
+    {
+      "id": "valid-38",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.40883
+    },
+    {
+      "id": "valid-39",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.526439
+    },
+    {
+      "id": "valid-40",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.465535
+    },
+    {
+      "id": "valid-41",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.392029
+    },
+    {
+      "id": "valid-42",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.415431
+    },
+    {
+      "id": "valid-43",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.427832
+    },
+    {
+      "id": "valid-44",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.458935
+    },
+    {
+      "id": "valid-45",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.433832
+    },
+    {
+      "id": "valid-46",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.466534
+    },
+    {
+      "id": "valid-47",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.564342
+    },
+    {
+      "id": "variant-48",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.457534
+    },
+    {
+      "id": "variant-49",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 1.20849
+    },
+    {
+      "id": "variant-50",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.492837
+    },
+    {
+      "id": "variant-51",
+      "actual": "PLAN",
+      "passed": true,
+      "expected": "PLAN",
+      "elapsedMs": 0.361027
+    },
+    {
+      "id": "clarify-52",
+      "actual": "CLARIFICATION",
+      "passed": true,
+      "expected": "CLARIFICATION",
+      "elapsedMs": 0.124009
+    },
+    {
+      "id": "clarify-53",
+      "actual": "CLARIFICATION",
+      "passed": true,
+      "expected": "CLARIFICATION",
+      "elapsedMs": 0.101608
+    },
+    {
+      "id": "clarify-54",
+      "actual": "CLARIFICATION",
+      "passed": true,
+      "expected": "CLARIFICATION",
+      "elapsedMs": 0.341925
+    },
+    {
+      "id": "clarify-55",
+      "actual": "CLARIFICATION",
+      "passed": true,
+      "expected": "CLARIFICATION",
+      "elapsedMs": 0.173413
+    },
+    {
+      "id": "clarify-56",
+      "actual": "CLARIFICATION",
+      "passed": true,
+      "expected": "CLARIFICATION",
+      "elapsedMs": 0.113508
+    },
+    {
+      "id": "clarify-57",
+      "actual": "CLARIFICATION",
+      "passed": true,
+      "expected": "CLARIFICATION",
+      "elapsedMs": 0.119308
+    },
+    {
+      "id": "clarify-58",
+      "actual": "CLARIFICATION",
+      "passed": true,
+      "expected": "CLARIFICATION",
+      "elapsedMs": 0.115508
+    },
+    {
+      "id": "clarify-59",
+      "actual": "CLARIFICATION",
+      "passed": true,
+      "expected": "CLARIFICATION",
+      "elapsedMs": 0.091206
+    },
+    {
+      "id": "unsupported-60",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "UNSUPPORTED",
+      "elapsedMs": 0.042603
+    },
+    {
+      "id": "unsupported-61",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "UNSUPPORTED",
+      "elapsedMs": 0.021502
+    },
+    {
+      "id": "unsupported-62",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "UNSUPPORTED",
+      "elapsedMs": 0.064305
+    },
+    {
+      "id": "unsupported-63",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "UNSUPPORTED",
+      "elapsedMs": 0.028702
+    },
+    {
+      "id": "unsupported-64",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "UNSUPPORTED",
+      "elapsedMs": 0.123509
+    },
+    {
+      "id": "unsupported-65",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "UNSUPPORTED",
+      "elapsedMs": 0.106808
+    },
+    {
+      "id": "attack-1",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.026602
+    },
+    {
+      "id": "attack-2",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.019402
+    },
+    {
+      "id": "attack-3",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.019201
+    },
+    {
+      "id": "attack-4",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.018602
+    },
+    {
+      "id": "attack-5",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.020201
+    },
+    {
+      "id": "attack-6",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.017002
+    },
+    {
+      "id": "attack-7",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.017801
+    },
+    {
+      "id": "attack-8",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.017702
+    },
+    {
+      "id": "attack-9",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.016401
+    },
+    {
+      "id": "attack-10",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.018502
+    },
+    {
+      "id": "attack-11",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.017701
+    },
+    {
+      "id": "attack-12",
+      "actual": "UNSUPPORTED",
+      "passed": true,
+      "expected": "ADVERSARIAL",
+      "elapsedMs": 0.016201
+    },
+    {
+      "id": "finance-78",
+      "actual": "ROLE_BLOCKED",
+      "passed": true,
+      "expected": "ROLE_BLOCKED",
+      "elapsedMs": 0.062904
+    },
+    {
+      "id": "finance-79",
+      "actual": "ROLE_BLOCKED",
+      "passed": true,
+      "expected": "ROLE_BLOCKED",
+      "elapsedMs": 0.059205
+    },
+    {
+      "id": "operations-80",
+      "actual": "ROLE_BLOCKED",
+      "passed": true,
+      "expected": "ROLE_BLOCKED",
+      "elapsedMs": 0.046204
+    },
+    {
+      "id": "operations-81",
+      "actual": "ROLE_BLOCKED",
+      "passed": true,
+      "expected": "ROLE_BLOCKED",
+      "elapsedMs": 0.051104
+    },
+    {
+      "id": "operations-82",
+      "actual": "ROLE_BLOCKED",
+      "passed": true,
+      "expected": "ROLE_BLOCKED",
+      "elapsedMs": 0.424131
+    },
+    {
+      "id": "operations-83",
+      "actual": "ROLE_BLOCKED",
+      "passed": true,
+      "expected": "ROLE_BLOCKED",
+      "elapsedMs": 0.358527
+    }
+  ],
+  "latencyMs": {
+    "p50": 0.466534,
+    "p95": 0.94237,
+    "mean": 0.42921883333333327
+  },
+  "limitation": "Synthetic grammar-aligned benchmark. SQL validation does not measure execution, runtime, real-world accuracy or certification. Provider errors are not counted as successful rejections.",
+  "measuredAt": "2026-10-21T15:01:31.228519432Z",
+  "modelVersion": "rules-2.0.0",
+  "sampleCounts": {
+    "PLAN": 52,
+    "ADVERSARIAL": 12,
+    "UNSUPPORTED": 6,
+    "ROLE_BLOCKED": 6,
+    "CLARIFICATION": 8
+  },
+  "questionCount": 84,
+  "catalogVersion": "retail-semantics-2.0",
+  "datasetVersion": "retail-questions-2.0",
+  "providerErrors": 0,
+  "applicationVersion": "2.0.0",
+  "boundarySampleCounts": {
+    "unsafeSql": 6,
+    "unsafePlans": 6
+  }
+}

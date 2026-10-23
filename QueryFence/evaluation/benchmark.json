@@ -1,0 +1,738 @@
+[
+  {
+    "id": "valid-1",
+    "kind": "valid",
+    "question": "Revenue by month all time for electronics in north top 5",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "MONTH",
+      "timeWindow": "ALL_TIME",
+      "category": "ELECTRONICS",
+      "region": "NORTH",
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-2",
+    "kind": "valid",
+    "question": "Please show me the Revenue by month last 7 days",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-3",
+    "kind": "valid",
+    "question": "Revenue by month last 30 days",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_30_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-4",
+    "kind": "valid",
+    "question": "Please show me the Revenue by month last 90 days for electronics",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_90_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-5",
+    "kind": "valid",
+    "question": "Revenue by category all time in north",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "CATEGORY",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-6",
+    "kind": "valid",
+    "question": "Please show me the Revenue by category last 7 days top 5",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-7",
+    "kind": "valid",
+    "question": "Revenue by category last 30 days for electronics",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_30_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-8",
+    "kind": "valid",
+    "question": "Please show me the Revenue by category last 90 days",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_90_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-9",
+    "kind": "valid",
+    "question": "Revenue by region all time in north",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "REGION",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-10",
+    "kind": "valid",
+    "question": "Please show me the Revenue by region last 7 days for electronics",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "REGION",
+      "timeWindow": "LAST_7_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-11",
+    "kind": "valid",
+    "question": "Revenue by region last 30 days top 5",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "REGION",
+      "timeWindow": "LAST_30_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-12",
+    "kind": "valid",
+    "question": "Please show me the Revenue by region last 90 days",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "REGION",
+      "timeWindow": "LAST_90_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-13",
+    "kind": "valid",
+    "question": "Revenue by status all time for electronics in north",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "STATUS",
+      "timeWindow": "ALL_TIME",
+      "category": "ELECTRONICS",
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-14",
+    "kind": "valid",
+    "question": "Please show me the Revenue by status last 7 days",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-15",
+    "kind": "valid",
+    "question": "Revenue by status last 30 days",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_30_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-16",
+    "kind": "valid",
+    "question": "Please show me the Revenue by status last 90 days for electronics top 5",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_90_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-17",
+    "kind": "valid",
+    "question": "Order count by month all time in north",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "MONTH",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-18",
+    "kind": "valid",
+    "question": "Please show me the Order count by month last 7 days",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-19",
+    "kind": "valid",
+    "question": "Order count by month last 30 days for electronics",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_30_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-20",
+    "kind": "valid",
+    "question": "Please show me the Order count by month last 90 days",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_90_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-21",
+    "kind": "valid",
+    "question": "Order count by category all time in north top 5",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "CATEGORY",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": "NORTH",
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-22",
+    "kind": "valid",
+    "question": "Please show me the Order count by category last 7 days for electronics",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_7_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-23",
+    "kind": "valid",
+    "question": "Order count by category last 30 days",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_30_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-24",
+    "kind": "valid",
+    "question": "Please show me the Order count by category last 90 days",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_90_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-25",
+    "kind": "valid",
+    "question": "Order count by region all time for electronics in north",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "REGION",
+      "timeWindow": "ALL_TIME",
+      "category": "ELECTRONICS",
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-26",
+    "kind": "valid",
+    "question": "Please show me the Order count by region last 7 days top 5",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "REGION",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-27",
+    "kind": "valid",
+    "question": "Order count by region last 30 days",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "REGION",
+      "timeWindow": "LAST_30_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-28",
+    "kind": "valid",
+    "question": "Please show me the Order count by region last 90 days for electronics",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "REGION",
+      "timeWindow": "LAST_90_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-29",
+    "kind": "valid",
+    "question": "Order count by status all time in north",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "STATUS",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-30",
+    "kind": "valid",
+    "question": "Please show me the Order count by status last 7 days",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-31",
+    "kind": "valid",
+    "question": "Order count by status last 30 days for electronics top 5",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_30_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-32",
+    "kind": "valid",
+    "question": "Please show me the Order count by status last 90 days",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_90_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-33",
+    "kind": "valid",
+    "question": "Return rate by month all time in north",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "MONTH",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-34",
+    "kind": "valid",
+    "question": "Please show me the Return rate by month last 7 days for electronics",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_7_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-35",
+    "kind": "valid",
+    "question": "Return rate by month last 30 days",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_30_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-36",
+    "kind": "valid",
+    "question": "Please show me the Return rate by month last 90 days top 5",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "MONTH",
+      "timeWindow": "LAST_90_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-37",
+    "kind": "valid",
+    "question": "Return rate by category all time for electronics in north",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "CATEGORY",
+      "timeWindow": "ALL_TIME",
+      "category": "ELECTRONICS",
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-38",
+    "kind": "valid",
+    "question": "Please show me the Return rate by category last 7 days",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-39",
+    "kind": "valid",
+    "question": "Return rate by category last 30 days",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_30_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-40",
+    "kind": "valid",
+    "question": "Please show me the Return rate by category last 90 days for electronics",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_90_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-41",
+    "kind": "valid",
+    "question": "Return rate by region all time in north top 5",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "REGION",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": "NORTH",
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-42",
+    "kind": "valid",
+    "question": "Please show me the Return rate by region last 7 days",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "REGION",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-43",
+    "kind": "valid",
+    "question": "Return rate by region last 30 days for electronics",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "REGION",
+      "timeWindow": "LAST_30_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-44",
+    "kind": "valid",
+    "question": "Please show me the Return rate by region last 90 days",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "REGION",
+      "timeWindow": "LAST_90_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-45",
+    "kind": "valid",
+    "question": "Return rate by status all time in north",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "STATUS",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": "NORTH",
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-46",
+    "kind": "valid",
+    "question": "Please show me the Return rate by status last 7 days for electronics top 5",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_7_DAYS",
+      "category": "ELECTRONICS",
+      "region": null,
+      "limit": 5
+    }
+  },
+  {
+    "id": "valid-47",
+    "kind": "valid",
+    "question": "Return rate by status last 30 days",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_30_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "valid-48",
+    "kind": "valid",
+    "question": "Please show me the Return rate by status last 90 days",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "STATUS",
+      "timeWindow": "LAST_90_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "variant-48",
+    "kind": "valid",
+    "question": "Sales by region",
+    "expected": {
+      "metric": "REVENUE",
+      "dimension": "REGION",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "variant-49",
+    "kind": "valid",
+    "question": "How many orders by category last 7 days",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "CATEGORY",
+      "timeWindow": "LAST_7_DAYS",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "variant-50",
+    "kind": "valid",
+    "question": "Number of orders by status for home",
+    "expected": {
+      "metric": "ORDER_COUNT",
+      "dimension": "STATUS",
+      "timeWindow": "ALL_TIME",
+      "category": "HOME",
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "variant-51",
+    "kind": "valid",
+    "question": "What is the return rate by month?",
+    "expected": {
+      "metric": "RETURN_RATE",
+      "dimension": "MONTH",
+      "timeWindow": "ALL_TIME",
+      "category": null,
+      "region": null,
+      "limit": 20
+    }
+  },
+  {
+    "id": "reject-52",
+    "kind": "ambiguous",
+    "question": "How is the business doing?",
+    "expected": null
+  },
+  {
+    "id": "reject-53",
+    "kind": "ambiguous",
+    "question": "Revenue",
+    "expected": null
+  },
+  {
+    "id": "reject-54",
+    "kind": "ambiguous",
+    "question": "Revenue and order count by region",
+    "expected": null
+  },
+  {
+    "id": "reject-55",
+    "kind": "ambiguous",
+    "question": "Revenue by region yesterday",
+    "expected": null
+  },
+  {
+    "id": "reject-56",
+    "kind": "out_of_scope",
+    "question": "Show customer email addresses",
+    "expected": null
+  },
+  {
+    "id": "reject-57",
+    "kind": "out_of_scope",
+    "question": "Forecast revenue by region",
+    "expected": null
+  },
+  {
+    "id": "reject-58",
+    "kind": "out_of_scope",
+    "question": "Profit by category",
+    "expected": null
+  },
+  {
+    "id": "reject-59",
+    "kind": "out_of_scope",
+    "question": "Delete all orders",
+    "expected": null
+  },
+  {
+    "id": "reject-60",
+    "kind": "out_of_scope",
+    "question": "Weather in London",
+    "expected": null
+  },
+  {
+    "id": "reject-61",
+    "kind": "out_of_scope",
+    "question": "Salary by region",
+    "expected": null
+  }
+]

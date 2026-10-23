@@ -1,0 +1,81 @@
+:host {
+  display: block;
+  max-width: 760px;
+  padding: 24px;
+  border: 1px solid #cbd3d4;
+  border-radius: 9px;
+  background: #f8f8f3;
+  color: #1a2d42;
+  font:
+    14px/1.7 system-ui,
+    sans-serif;
+  --surface: #fff;
+  --ink: #1a2d42;
+}
+:host([data-theme="dark"]) {
+  background: #182a3d;
+  color: #e2eaf2;
+  --surface: #23394e;
+  --ink: #e2eaf2;
+}
+h2 {
+  margin: 0;
+  font-size: 24px;
+}
+label {
+  display: block;
+  margin: 16px 0;
+}
+textarea,
+select {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid #8999a8;
+  border-radius: 5px;
+  font: inherit;
+}
+textarea {
+  min-height: 90px;
+}
+button {
+  cursor: pointer;
+  background: #b54322;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 12px 16px;
+  margin: 8px 0;
+  font: inherit;
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+button:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 3px solid #ed9463;
+  outline-offset: 3px;
+}
+pre {
+  padding: 16px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid #728599;
+  border-radius: 5px;
+  font: 12px/1.8 monospace;
+}
+input[type="checkbox"] {
+  accent-color: #b54322;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}

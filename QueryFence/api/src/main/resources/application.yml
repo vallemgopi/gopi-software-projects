@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/queryfence}
+    username: analytics
+    password: ${ANALYTICS_PASSWORD}
+    hikari:
+      maximum-pool-size: 4
+      connection-timeout: 5000
+      read-only: true
+  flyway:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/queryfence}
+    user: ${DB_OWNER:queryfence_owner}
+    password: ${DB_PASSWORD}
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+      fail-on-numbers-for-enums: true
+server:
+  error:
+    include-message: never
+  tomcat:
+    max-http-form-post-size: 16KB
+planner:
+  mode: ${PLANNER_MODE:demo}
+  model: ${OLLAMA_MODEL:qwen2.5:3b}
+  model-version: ${OLLAMA_MODEL_VERSION:unverified}
+  url: ${OLLAMA_URL:http://localhost:11434}
+logging:
+  structured:
+    format:
+      console: ecs
+security:
+  local-demo-secret: ${LOCAL_DEMO_SECRET:}
+  demo-enabled: ${DEMO_ENABLED:true}
+  demo-origins: ${DEMO_ORIGINS:http://localhost:3000,http://127.0.0.1:3000,http://localhost:5173,http://127.0.0.1:5173}
+  allowed-origins: ${ALLOWED_ORIGINS:http://localhost:3000,http://127.0.0.1:3000}
+  requests-per-minute: ${REQUESTS_PER_MINUTE:120}
+query:
+  max-cost: ${QUERY_MAX_COST:10000}
+  max-scan-rows: ${QUERY_MAX_SCAN_ROWS:100000}

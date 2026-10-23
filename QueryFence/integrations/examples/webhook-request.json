@@ -1,0 +1,10 @@
+{
+  "method": "POST",
+  "url": "http://localhost:18080/api/v2/queries/plan",
+  "headers": {
+    "Authorization": "Bearer ${RUNTIME_ACCESS_TOKEN}",
+    "Content-Type": "application/json"
+  },
+  "body": { "question": "Revenue by category last 30 days" },
+  "note": "Your host must replace placeholders from its secret store and support HTTP. This request creates a plan only; it does not approve or execute it."
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src http://localhost:18080 http://localhost:8080; object-src 'none'; base-uri 'none'"
+    />
+    <title>QueryFence example host</title>
+  </head>
+  <body>
+    <h1>Example owner-configured portal</h1>
+    <p>
+      Use a short-lived integration token from your local owner CLI. It stays in
+      memory; do not use permanent browser credentials.
+    </p>
+    <form id="connect">
+      <label
+        >API URL
+        <input
+          id="api-url"
+          type="url"
+          required
+          value="http://localhost:18080/api/v2" /></label
+      ><label
+        >Runtime access token
+        <input id="token" type="password" required autocomplete="off" /></label
+      ><button>Connect widget</button>
+    </form>
+    <p id="error" role="alert"></p>
+    <query-fence></query-fence>
+    <script type="module" src="./widget-host.js"></script>
+  </body>
+</html>

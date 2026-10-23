@@ -1,0 +1,11 @@
+.env
+.secrets
+.tools
+**/node_modules
+**/target
+**/dist
+.git
+.idea
+*.log
+evaluation/results*.json
+evaluation/baseline*.json

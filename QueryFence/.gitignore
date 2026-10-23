@@ -1,0 +1,13 @@
+.env
+.idea/
+*.iml
+api/target/
+web/node_modules/
+web/dist/
+evaluation/results*.json
+.tools/
+*.log
+*.tsbuildinfo
+.secrets/
+integrations/node_modules/
+integrations/dist/
